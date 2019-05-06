@@ -1,0 +1,35 @@
+/*
+* Megan Leach
+* May 7, 2019
+* Girl Develop It
+*/
+
+/* The Universal Selector */
+
+* {
+
+}
+
+/* Body properties here */
+
+body {
+    width: 65%; /*centers the work on the page*/ 
+    margin: auto; /*specifies the margin space*/
+    background-color: mistyrose; /*this is the color of the background for the page*/
+}
+
+header {
+    background-color: #ff6666; /* a hex code for color*/
+    text-align: center;} /*moves the image to the center of the page*/
+
+.heading {
+    font-family: "Lucida Handwriting", cursive;
+    text-decoration: underline;
+}
+
+.girlimages {width: 250; height: 250; float: right;}
+
+a:hover, a:focus {
+    color: deeppink;
+    font-size: 150%;
+} /*will change what the link looks like when yu hover the mouse over it*/
